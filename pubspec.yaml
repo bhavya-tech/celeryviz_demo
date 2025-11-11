@@ -12,6 +12,7 @@ dependencies:
   celeryviz_frontend_core:
     git:
       url: https://github.com/bhavya-tech/celeryviz_frontend_core.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
