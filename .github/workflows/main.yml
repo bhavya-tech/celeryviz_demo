@@ -13,6 +13,7 @@ jobs:
       - uses: flutter-actions/setup-flutter@v4
         with:
           channel: stable
+          version: 3.41.0
       - run: flutter pub get
       - run: flutter build web --release --base-href "/celeryviz_demo/"
       - name: Deploy to GitHub Pages
